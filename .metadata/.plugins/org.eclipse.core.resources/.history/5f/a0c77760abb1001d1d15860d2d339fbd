@@ -1,0 +1,14 @@
+package com.shinhan.day01;
+
+public class VariableTest {
+
+	public static void main(String[] args) {
+		//1. 변수선언
+		int a=10;
+		//2. 변수사용
+		a=10; //할당
+		System.out.println(a); //읽기
+		System.out.println(a+20); //읽기
+	}
+
+}

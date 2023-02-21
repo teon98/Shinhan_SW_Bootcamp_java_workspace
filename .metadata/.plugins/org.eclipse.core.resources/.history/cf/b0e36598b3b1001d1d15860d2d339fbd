@@ -1,0 +1,24 @@
+package com.shinhan.day01;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		f1();
+	}
+
+	private static void f1() {
+		//java.base모듈안에 java.lang.String class
+		//기본형이 아님.
+		//String: 고정문자열 
+		//""는 리터럴.
+		String s1 = "자바"; //컴파일 시점 .class의 상수pool에 집어넣음. 클래스가 로드될 때 class pool에 옮겨놓게 됨. 
+		String s2 = "자바"; //상수는 한번 만들어지면 끝나기 때문에 s2는 같은 "자바"를 가리키게 됨.
+		String s3 = new String("자바"); //new는 실행시점에 만들어짐.
+		String s4 = new String("자바"); 
+		System.out.println(System.identityHashCode(s1));
+		System.out.println(System.identityHashCode(s2));
+		System.out.println(System.identityHashCode(s3));
+		System.out.println(System.identityHashCode(s4));
+	}
+
+}

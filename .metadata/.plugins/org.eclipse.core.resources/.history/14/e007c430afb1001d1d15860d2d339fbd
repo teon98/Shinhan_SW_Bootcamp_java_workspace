@@ -1,0 +1,18 @@
+package com.shinhan.day01;
+
+public class VariableTest2 {
+
+	public static void main(String[] args) {
+		System.out.println("main시작");
+		f1();
+		System.out.println("main끝");
+	}
+
+	private static void f1() {
+		int a;
+		System.out.println(a=10);
+		System.out.println(a==10);
+		
+	}
+
+}

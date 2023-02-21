@@ -1,0 +1,15 @@
+package com.shinhan.day01;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		System.out.println("안녕하세요1");
+		System.out.println("안녕하세요2");
+		System.out.println("안녕하세요3");
+		// 사람에게 프로그램 설명(주석) - 한줄
+		/* 
+		 * 사람에게 프로그램 설명(주석) - 여러줄 
+		 * */
+	}
+
+}
