@@ -1,0 +1,17 @@
+package com.shinhan.day02;
+
+public class 태영 {
+
+	public static void main(String[] args) {
+		method1();
+
+	}
+
+	private static void method1() {
+		int x = 10;
+		int y = 20;
+		int z = (++x) + (y--);
+		System.out.println(z);
+	}
+
+}

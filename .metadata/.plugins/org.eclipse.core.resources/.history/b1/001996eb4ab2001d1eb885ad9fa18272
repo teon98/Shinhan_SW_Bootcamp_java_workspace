@@ -1,0 +1,25 @@
+package com.shinhan.day02;
+
+import java.io.IOException;
+
+//java.lang 패키지에있는 class는 import없이 사용한다.
+
+import java.io.InputStream;
+
+public class ScannerTest {
+
+	public static void main(String[] args) throws IOException {
+		f1();
+
+	}
+
+	private static void f1() throws IOException {
+		// 사용자입력 받기
+		System.out.println("f1 function");
+		System.out.print("정수입력>>");
+		InputStream is = System.in;
+		int i = is.read(); //1byte만 읽음.
+		System.out.println((char)i);
+	}
+
+}

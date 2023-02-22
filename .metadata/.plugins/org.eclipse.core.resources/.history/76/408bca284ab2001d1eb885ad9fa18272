@@ -1,0 +1,16 @@
+package com.shinhan.day02;
+
+public class ScannerTest {
+
+	public static void main(String[] args) {
+		f1();
+
+	}
+
+	private static void f1() {
+		// 사용자입력 받기
+		System.out.println("f1 function");
+		InputStream is = System.in;
+	}
+
+}

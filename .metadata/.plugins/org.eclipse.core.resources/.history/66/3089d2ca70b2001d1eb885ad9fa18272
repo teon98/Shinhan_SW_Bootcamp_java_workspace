@@ -1,0 +1,23 @@
+package com.shinhan.day02;
+
+import java.util.Scanner;
+
+public class LAB2 {
+
+	public static void main(String[] args) {
+		method1();//문제1
+	}
+
+	private static void method1() {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("1보다 크고 10보다 작은 정수를 입력하세요.: ");
+		int num = sc.nextInt();
+		if(num>=1 & num<=10) {
+			for(int i=1; i<10; i++) {
+				System.out.printf("%d * %d = %d", num, i, num*i);
+			}
+		}
+		
+	}
+
+}

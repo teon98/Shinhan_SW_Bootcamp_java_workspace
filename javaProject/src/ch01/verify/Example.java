@@ -12,5 +12,12 @@ public class Example {
 		double doubleValue = 5.7;
 		int var = (int)doubleValue;
 		System.out.println(var);
+		
+		int tom = -1;
+		char marry = '9';
+		boolean john = false ;  //주의 
+		String sarah = "Sarah Jang" ;
+		System.out.println( "our friends..\n" 
+		+ tom + ", " + marry + ", " + john + " and " + sarah);
 	}
 }
