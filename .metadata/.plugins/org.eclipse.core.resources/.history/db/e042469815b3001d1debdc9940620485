@@ -1,0 +1,54 @@
+package com.shinhan.day03;
+
+import java.util.Arrays;
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		f2();
+
+	}
+
+	private static void f2() {
+		//1. 배열변수 선언
+		int[] scores;
+		//2. 배열생성...배열의 개수는 필수이다. 생성시 자동초기화된다.
+		//(정수:0, 실수:0.0, boolean:false, 객체:null)
+		scores = new int[26];
+		//3. 배열사용
+		scores[0] = 100;
+		scores[1] = 90;
+		scores[2] = 80;
+		int total = 0;
+		System.out.println(scores.length);
+		//일반for
+		for(int index=0;index < scores.length;index++) {
+			System.out.print(scores[index] + " ");
+			total += scores[index];
+		}
+		System.out.println("총점은: " + total);
+	}
+
+	private static void f1() {
+		//배열: 하나의 이름으로 같은타입의 Heap에 연속공간을 만드는 자료구조
+		//1. 배열변수 선언
+		int[] arr1 = null;
+		int arr2[];
+		double[] arr3; 
+		boolean[] arr4;
+		String[] arr5;
+		//2. 배열생성... 배열의 개수 필수이다. 생성시 자동초기화된다.
+		//(정수:0, 실수:0.0, boolean:false, 객체:null)
+		arr1 = new int[5];
+		arr3 = new double[6];
+		arr4 = new boolean[7];
+		arr5 = new String[6];
+		//3. 배열사용
+		System.out.println(arr1[0]);
+		System.out.println(Arrays.toString(arr1));
+		System.out.println(Arrays.toString(arr3));
+		System.out.println(Arrays.toString(arr4));
+		System.out.println(Arrays.toString(arr5));
+	}
+
+}

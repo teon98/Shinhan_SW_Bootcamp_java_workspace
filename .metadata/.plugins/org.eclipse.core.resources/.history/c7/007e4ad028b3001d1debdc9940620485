@@ -1,0 +1,28 @@
+package com.shinhan.day03;
+
+public class EnumTest {
+
+	//상수: 고정값
+	static final double PI = 3.141592; //static final, final static 모두 가능 / 이름은 대문자로
+	
+	static final int MONDAY = 1;
+	static final int SUNDAY = 2;
+	static final int SUCCESS = 2;
+	//전혀 다른 유형의 상수 값이 혼동될 우려가 있다.
+	
+	public static void main(String[] args) {
+		f2();
+	}
+
+	private static void f2(LoginEnum login) {
+		System.out.println(login = LoginEnum.SUCCESS);
+	}
+
+	private static void f1() {
+		System.out.println(PI);
+		//PI = 3.14; 변경불가능
+		int input = 2;
+		System.out.println(input == SUNDAY);
+	}
+
+}

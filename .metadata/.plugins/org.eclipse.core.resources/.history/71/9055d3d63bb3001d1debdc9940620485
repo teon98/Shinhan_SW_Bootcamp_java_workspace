@@ -1,0 +1,36 @@
+package com.shinhan.day03;
+
+//class = 변수 + 메서드
+public class Student {
+	
+	int a = 10; //변수선언 가능하지만, 로직은 쓸 수 없다.
+	
+	//1.Filed(변수, 속성, 특징)
+	String name;
+	String stdId;
+	String subject;
+	int score;
+	
+	//2.Constructor(생성자)메서드...Compile시에 자동으로 default 생성자가 제공된다.
+	//정의가능하다.
+	Student(){
+		System.out.println("default 생성자에 의해 Student가 만들어짐");
+	}
+	
+	//3.일반메서드(행위)
+	void study(){
+		System.out.println(name + "학생이 공부하니다.");
+	}
+	//4.block(instance block-생성시마다수행, static block-load시 1회 수행)
+	{
+		System.out.println("instance block");
+	}
+	static {
+		System.out.println("static block");
+	}
+	//5.inner class
+	class Phone{
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.shinhan.day03;
+
+public class ComputerTest {
+
+	public static void main(String[] args) {
+		f1();
+
+	}
+
+	private static void f1() {
+		Computer com1 = new Computer();
+		System.out.println(com1);
+	}
+
+}

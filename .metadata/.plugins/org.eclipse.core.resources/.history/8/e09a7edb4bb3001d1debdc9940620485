@@ -1,0 +1,20 @@
+package com.shinhan.day03;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		f1();
+
+	}
+
+	private static void f1() {
+		Person person1 = new Person();
+		person1.selfIntroduce();
+		System.out.println(Person.getPopulation());
+		
+		Person person2 = new Person(30, "홍길동");
+		person2.selfIntroduce();
+		System.out.println(Person.getPopulation());
+	}
+
+}

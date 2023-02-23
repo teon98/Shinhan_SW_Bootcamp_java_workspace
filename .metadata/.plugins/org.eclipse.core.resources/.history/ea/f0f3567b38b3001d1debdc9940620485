@@ -1,0 +1,14 @@
+package com.shinhan.day03;
+
+//class: 설계도, object를 만드는 틀
+//Object는 class를 이용해서 만든 객체(실체 - instance)
+public class Car {
+	//1. field(속성, 멤변수)
+	String model;
+	String color;
+	int price;
+	//2. 생성자메서드(생성시 초기화가 목적)
+	//3. 일반메서드(method, 기능, 동작)
+	//4. block(instance block, static block)
+	//5. inner class
+}
