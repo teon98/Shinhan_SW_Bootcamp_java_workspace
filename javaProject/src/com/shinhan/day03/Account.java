@@ -35,6 +35,13 @@ public class Account {
 		System.out.printf("계좌번호는 %s입니다.\n",accNo);
 		return accNo;
 	}
+
+	@Override
+	public String toString() {
+		return "Account [accNo=" + accNo + ", balance=" + balance + "]";
+	}
+	
+	
 	
 //	private void print(String message) {
 //		System.out.println(accNo + message);
