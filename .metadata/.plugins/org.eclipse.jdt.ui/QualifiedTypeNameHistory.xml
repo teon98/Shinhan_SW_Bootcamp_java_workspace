@@ -6,4 +6,22 @@
     <fullyQualifiedTypeName name="com.shinhan.day03.Computer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.shinhan.day04.Calculator"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.shinhan.day03.Car"/>
+    <fullyQualifiedTypeName name="com.shinhan.day04.BookVO"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.BookVO"/>
+    <fullyQualifiedTypeName name="com.shinhan.day04.PackageTest"/>
+    <fullyQualifiedTypeName name="com.shinhan.day04.Phone"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="com.shinhan.day03.ShopService"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.ExchangeStudent"/>
+    <fullyQualifiedTypeName name="java.lang.Package"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.Parent"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.Parent2"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.KumhoTire"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.HankookTire"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.MacOutputStream"/>
+    <fullyQualifiedTypeName name="com.shinhan.day05.Machine"/>
 </qualifiedTypeNameHistroy>
