@@ -1,6 +1,7 @@
 package com.shinhan.day07;
 
 import java.io.UnsupportedEncodingException;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -12,14 +13,29 @@ import java.util.StringTokenizer;
 public class 확인문제12장 {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
+		//확인문제 1번 - 4
+		//확인문제 2번 - 3
+		//확인문제 3번 - 4
+		//확인문제 4번 - hashcode(), equals()
 		//studentExample();//확인문제5번
 		//MemberExample();//확인문제6번
+		//확인문제 7번 - 1?
 		//method8(); //확인문제8번
 		//DecodingExample(); //확인문제9번
 		//StringBuilderExample(); //확인문제10번
 		//method11(); //확인문제11번
 		//IntegerCompareExample(); //확인문제12번
-		method15(); //확인문제15번
+		//확인문제 13번 -4
+		//확인문제 14번 - ??
+		//method15(); //확인문제15번
+		method16(); //확인문제16번
+	}
+
+	private static void method16() {
+		Date now = new Date();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy년 MM월 dd일 E요일 HH시 mm분");
+		System.out.println(sdf.format(now));
 	}
 
 	private static void method15() {
