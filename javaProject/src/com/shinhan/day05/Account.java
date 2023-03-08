@@ -13,6 +13,12 @@ public class Account extends Object{//extends Object는 생략 가능
 		//super(); 자동으로 생성된다.
 	}
 	
+	public Account(String accNo, String owner) {
+		this.accNo = accNo;
+		this.owner = owner;
+
+	}
+	
 	public Account(String accNo, String owner, int balance) {
 		this.accNo = accNo;
 		this.owner = owner;
@@ -55,6 +61,11 @@ public class Account extends Object{//extends Object는 생략 가능
 
 	public void setBalance(int balance) {
 		this.balance = balance;
+	}
+
+	@Override
+	public String toString() {
+		return "Account [accNo=" + accNo + ", owner=" + owner + ", balance=" + balance + "]";
 	}
 	
 }
