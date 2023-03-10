@@ -1,8 +1,13 @@
 package com.shinhan.day05;
 
+import java.io.Serializable;
 
 //부모 class로 사용할 예정
-public class Account extends Object{//extends Object는 생략 가능
+public class Account extends Object implements Serializable{//extends Object는 생략 가능
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4313164987632495438L;
 	//1.field
 	private String accNo;
 	private String owner;
