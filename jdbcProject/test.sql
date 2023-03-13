@@ -1,0 +1,1 @@
+select * from EMPLOYEES where employee_id = 100;
